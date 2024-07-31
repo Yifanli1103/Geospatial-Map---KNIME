@@ -13,5 +13,6 @@ Key Functions
 
 KNIME Offical Website : Click [HERE](https://www.knime.com)
 
-# How to create a 
+# How to create a geospatial map through KNIME
+![workflow_overview](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/workflow_overview.png)
 ## Step 1. Download the KNIME platform from the offical website
