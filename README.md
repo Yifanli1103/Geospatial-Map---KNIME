@@ -11,7 +11,7 @@ Key Functions
 * Statistical Analysis
 * Text Mining
 
-* KNIME Offical Website : Click [HERE](https://www.knime.com)
+KNIME Offical Website : Click [HERE](https://www.knime.com)
 
 # How to create a 
 ## Step 1. Download the KNIME platform from the offical website
