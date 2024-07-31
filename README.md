@@ -1,1 +1,1 @@
-# Geospatial-Map---KNIME
+# Instructions to replicate the geospatial map workflow in KNIME
