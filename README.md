@@ -84,4 +84,4 @@ So far we have already created a dataset with our original data and ESPG codes. 
 * Geospatial View Map:
 ![geospatial_map](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/geospatial_map.jpg)
 * Geospatial View with Static: This node will visualize the given geometric elements using the matplotlib . It can be used to create Choropleth Maps by assigning a marker color column. The node further supports various settings to adapt the legend to your needs.
-  
+* Geospatial View with Static Settings:
