@@ -35,7 +35,7 @@ Click the website link above and sign up for the KNIME community Hub. Then, go b
 ![install_package](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/install_package.jpg)
 2.Type "Geospatial" in the search box. Find the "Geospatial Analytics Extension for KNIME", click "NEXT" and download the extension package in our platform. After successfully downloading the package, you can start create your own geospatial workflow.
 
-## Step 3. Creating the workflow
+## Step 3. Creating the Workflow
 ### Workflow Overview:
 ![workflow](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/workflow.jpg)
 
@@ -47,3 +47,4 @@ Click the website link above and sign up for the KNIME community Hub. Then, go b
 ![csv_config](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/csv_config.jpg)
 3.Right click the node and select the configure to set up the node. Then, click browse and find your corresponding dataset that you want to analyze (settings are shown in the graph). After this, click apply and your dataset will be stored at the CSV reader node.
 
+### Step 3.2 Extract the Spatial Information (Coordinate Reference System)
