@@ -65,3 +65,11 @@ To replace our place boundaries with ESPG codes, which can be universally used f
 We choose "Replace" to replace our boundaries information with ESPG codes. If you don't want to replace and only want an extra line of ESPG codes, we can choose "Append" in the setting.
 
 ### Step 3.4 Combine Our ESPG Codes With Our Original Dataset
+We use the "Joiner" node to combine our ESPG codes with our original dataset.
+![joiner](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner.jpg)
+* Joiner: This node combines two tables similar to a join in a database. It combines each row from the top input port with each row from the bottom input port that has identical values in selected columns. Rows that remain unmatched can also be output.
+* Settings:
+* ![joiner_config1](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config1.jpg)
+* ![joiner_config2](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config2.jpg)
+* ![joiner_config3](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config3.jpg)
+  
