@@ -2,6 +2,7 @@
 
 # Introduction
 ## Global Public Sentiment on Decentralized Finance: A Spatiotemporal Analysis of Geo-tagged Tweets from 150 Countries
+![paper_overview](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/paper_overview.png)
 
 
 ## Platform
