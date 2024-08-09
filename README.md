@@ -36,4 +36,8 @@ Click the website link above and sign up for the KNIME community Hub. Then, go b
 2.Type "Geospatial" in the search box. Find the "Geospatial Analytics Extension for KNIME", click "NEXT" and download the extension package in our platform. After successfully downloading the package, you can start create your own geospatial workflow.
 
 ## Step 3. Creating the workflow
+### Workflow Overview:
+![workflow](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/workflow.jpg)
+1.Change the name of your country variable (the coloumn of country) into "Region" in your CSV file.
+
 
