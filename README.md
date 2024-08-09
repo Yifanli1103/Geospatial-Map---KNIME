@@ -27,4 +27,4 @@ KNIME Offical Website : Click [HERE](https://www.knime.com)
 
 ## Step 1. Download the KNIME platform from the offical website
 ![KNIME_page](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/knime_page.jpg)
-Click the website link above and sign up for the KNIME community Hub. Then, go back to the main page and click the yellow bottom, saying "Download the KNIME Analytics Platform"
+Click the website link above and sign up for the KNIME community Hub. Then, go back to the main page and click the yellow bottom, saying "Download KNIME Analytics Platform"
