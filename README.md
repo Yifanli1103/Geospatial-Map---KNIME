@@ -1,7 +1,9 @@
-# ![KNIME® logo](https://www.knime.com/sites/default/files/knime_logo_github_40x40_4layers.png) KNIME® - The Geospatial Map
+# ![KNIME® logo](https://www.knime.com/sites/default/files/knime_logo_github_40x40_4layers.png) KNIME® - The Geospatial Map for Geotagged Tweets Data
 
 # Introduction
+## Global Public Sentiment on Decentralized Finance: A Spatiotemporal Analysis of Geo-tagged Tweets from 150 Countries
 
+## Platform
 KNIME (Konstanz Information Miner) is an open-source software platform designed for data analytics, reporting, and integration. It is a powerful and flexible platform for data-driven tasks, suitable for both beginners and experienced data professionals. It is widely used in various industries for tasks ranging from simple data preprocessing to advanced machine learning and predictive analytics.
 
 Key Functions
