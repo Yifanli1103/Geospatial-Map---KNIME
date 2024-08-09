@@ -3,7 +3,7 @@
 # Introduction
 ## Our Paper
 ### Global Public Sentiment on Decentralized Finance: A Spatiotemporal Analysis of Geo-tagged Tweets from 150 Countries
-![paper_overview](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/paper_overview-2.png)
+![paper_overview]([https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Graphs/paper_overview-2.png])
 Our Purposes:
 * Illustrate and unfold the global imbalances in public attention and sentiments toward decentralized finance with geo-tagged tweet data
 * Find out the significant factors impact the public attention and sentiment towards decentralized finance among countries
@@ -22,5 +22,5 @@ KNIME Offical Website : Click [HERE](https://www.knime.com)
 
 # How to create a geospatial map through KNIME
 ## Overview
-![workflow_overview](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/workflow_overview.png)
+![workflow_overview](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Graphs/workflow_overview.png)
 ## Step 1. Download the KNIME platform from the offical website
