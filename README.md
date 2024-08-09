@@ -56,4 +56,7 @@ In this step, we use a loop to iterate our extraction process of obtaining the g
 * Loop End: Node at the end of a loop. It is used to mark the end of a workflow loop and collects the intermediate results by row-wise concatenation of the incoming tables.
 ![end_loop](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/end_loop.jpg)
 
-
+### Step 3.3 Change the Geometry Column Contains Place Boundaries Into ESPG Codes
+To achieve the purpose, we need the assistance of "Projection" node.
+![projection](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/projection.jpg)
+* Projection: This node transforms the Coordinate reference system (CRS) of the selected geometry column to the entered new coordinate reference system. The node will transform the points in all objects individually. It is based on the Geopandas project.
