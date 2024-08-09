@@ -51,9 +51,9 @@ Click the website link above and sign up for the KNIME community Hub. Then, go b
 ![extraction_spatial](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/extraction_spatial.jpg)
 In this step, we use a loop to iterate our extraction process of obtaining the geospatial information (Polygons) of each country. The node introduction and settings are shown as followed:
 * Table Row to Variable Loop Start: This node uses each row of a data table to define new variable values for each loop iteration. The names of the variables are defined by the column names.
-* 
-* OSM Boundary Map: This node gets place boundary from OpenStreetMap by the geocoding place name. The resulting GeoDataFrame’s geometry column contains place boundaries if they exist in OpenStreetMap.
-* 
+![start_loop](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/start_loop.jpg)
+* OSM Boundary Map: This node gets place boundary from OpenStreetMap by the geocoding place name. The resulting GeoDataFrame’s geometry column contains place boundaries if they exist in OpenStreetMap (no need to configure).
 * Loop End: Node at the end of a loop. It is used to mark the end of a workflow loop and collects the intermediate results by row-wise concatenation of the incoming tables.
+![end_loop](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/end_loop.jpg)
 
 
