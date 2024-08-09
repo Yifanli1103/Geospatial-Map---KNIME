@@ -74,7 +74,7 @@ We use the "Joiner" node to combine our ESPG codes with our original dataset.
 ![joiner_config3](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config3.jpg)
 
 ## Step 4. Visualize the Geospatial Map
-So far we have already created a dataset with our original data and ESPG codes. Next, we need to visualize the variables on the worldmap. By doing this, you can choose either "Geospatial View" node or "Geospatial View with Static" node.
+So far we have already created a dataset with our original data and ESPG codes. Next, we need to visualize the variables on the worldmap. By doing this, you can choose either "Geospatial View" node or "Geospatial View with Static" node. Since the "Geospatial View" includes the interactive view, it needs more time to process. "Geospatial View with Static" node generates a static map with much faster processing speed. Based on your computer's capacity, you can choose "Geospatial View with Static" to create a map in a short time, or "Geospatial View" to create a more fancy and interactive map.
 ![geospatial_view](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/geospatial_view.jpg)
 * Geospatial View: This node creates an interactive map view based on the selected geometric elements of the input table. It provides various dialog options to modify the appearance of the view e.g. the base map, shape color and size. The geometric elements are drawn in the order they appear in the input table. 
 * Geospatial View Settings:
@@ -85,3 +85,7 @@ So far we have already created a dataset with our original data and ESPG codes. 
 ![geospatial_map](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/geospatial_map.jpg)
 * Geospatial View with Static: This node will visualize the given geometric elements using the matplotlib . It can be used to create Choropleth Maps by assigning a marker color column. The node further supports various settings to adapt the legend to your needs.
 * Geospatial View with Static Settings:
+![static_config1](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/static_config1.jpg)
+![static_config2](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/static_config2.jpg)
+* Geospatial View with Static Map:
+![static_map](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/static_map.jpg)
