@@ -1,9 +1,12 @@
 # ![KNIME® logo](https://www.knime.com/sites/default/files/knime_logo_github_40x40_4layers.png) KNIME® - The Geospatial Map for Geotagged Tweets Data
 
 # Introduction
-## Global Public Sentiment on Decentralized Finance: A Spatiotemporal Analysis of Geo-tagged Tweets from 150 Countries
-![paper_overview](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/paper_overview-2.png)!
-
+## Our Paper
+### Global Public Sentiment on Decentralized Finance: A Spatiotemporal Analysis of Geo-tagged Tweets from 150 Countries
+![paper_overview](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/paper_overview-2.png)
+Our purposes:
+* Illustrate and unfold the global imbalances in public attention and sentiments toward decentralized finance with geo-tagged tweet data
+* Find out the significant factors impact the public attention and sentiment towards decentralized finance among countries
 
 ## Platform
 KNIME (Konstanz Information Miner) is an open-source software platform designed for data analytics, reporting, and integration. It is a powerful and flexible platform for data-driven tasks, suitable for both beginners and experienced data professionals. It is widely used in various industries for tasks ranging from simple data preprocessing to advanced machine learning and predictive analytics.
