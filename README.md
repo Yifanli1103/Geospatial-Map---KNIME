@@ -40,8 +40,7 @@ Click the website link above and sign up for the KNIME community Hub. Then, go b
 ![workflow](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/workflow.jpg)
 
 ### Step 3.1 Insert the Dataset
-![country_example](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/country_example.jpg)
-1.Change the name of your country variable (the column of country) into "Region" in your CSV file.
+1.Change the name of your country variable (the column of country) into "Region" in your CSV file (see the example dataset in the data file).
 ![csv_reader](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/csv_reader.jpg)
 2.Use the node repository on the left-hand side to search the node, typing "CSV reader". Then, drag the node to the platform.
 ![csv_config](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/csv_config.jpg)
