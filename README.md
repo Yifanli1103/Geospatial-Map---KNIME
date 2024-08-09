@@ -33,4 +33,7 @@ Click the website link above and sign up for the KNIME community Hub. Then, go b
 ![extension](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/extension.jpg)
 1.Once open the KNIME platform, select "menu" and click "install extensions" to direct to the searching page.
 ![install_package](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/install_package.jpg)
-2.Type "Geospatial" in the search box. Find the "Geospatial Analytics Extension for KNIME", click "NEXT" and download the extension package in our platform.
+2.Type "Geospatial" in the search box. Find the "Geospatial Analytics Extension for KNIME", click "NEXT" and download the extension package in our platform. After successfully downloading the package, you can start create your own geospatial workflow.
+
+## Step 3. Creating the workflow
+
