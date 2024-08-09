@@ -60,5 +60,6 @@ In this step, we use a loop to iterate our extraction process of obtaining the g
 To replace our place boundaries with ESPG codes, which can be universally used for mapping coordinates everywhere in the world, we need the assistance of "Projection" node.
 ![projection](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/projection.jpg)
 * Projection: This node transforms the Coordinate reference system (CRS) of the selected geometry column to the entered new coordinate reference system. The node will transform the points in all objects individually. It is based on the Geopandas project.
-* Settings:
+Settings:
+![projection_config](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/projection_config.jpg)
 
