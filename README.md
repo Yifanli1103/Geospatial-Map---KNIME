@@ -69,7 +69,11 @@ We use the "Joiner" node to combine our ESPG codes with our original dataset.
 ![joiner](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner.jpg)
 * Joiner: This node combines two tables similar to a join in a database. It combines each row from the top input port with each row from the bottom input port that has identical values in selected columns. Rows that remain unmatched can also be output.
 * Settings:
-* ![joiner_config1](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config1.jpg)
-* ![joiner_config2](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config2.jpg)
-* ![joiner_config3](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config3.jpg)
+![joiner_config1](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config1.jpg)
+![joiner_config2](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config2.jpg)
+![joiner_config3](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config3.jpg)
+
+## Step 4. Visualize the Geospatial Map
+So far we have already created a dataset with our original data and ESPG codes. Next, we need to visualize the variables on the worldmap. By doing this, you can choose either "Geospatial View" node or "Geospatial View With Static" node.
+
   
