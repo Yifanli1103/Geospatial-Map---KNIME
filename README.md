@@ -27,4 +27,10 @@ KNIME Offical Website : Click [HERE](https://www.knime.com)
 
 ## Step 1. Download the KNIME platform from the offical website
 ![KNIME_page](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/knime_page.jpg)
-Click the website link above and sign up for the KNIME community Hub. Then, go back to the main page and click the yellow bottom, saying "Download KNIME Analytics Platform"
+Click the website link above and sign up for the KNIME community Hub. Then, go back to the main page and click the yellow bottom, saying "Download KNIME Analytics Platform". Based on your computer's system, choose the right download package. 
+
+## Step 2. Download the Geospatial Analytics Extension Package
+![extension](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/extension.jpg)
+Once open the KNIME platform, select "menu" and click "install extensions" to direct to the searching page.
+![install_package](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/install_package.jpg)
+Type "Geospatial" in the search box. Find the "Geospatial Analytics Extension for KNIME", click "NEXT" and download the extension package in our platform.
