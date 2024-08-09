@@ -74,6 +74,12 @@ We use the "Joiner" node to combine our ESPG codes with our original dataset.
 ![joiner_config3](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/joiner_config3.jpg)
 
 ## Step 4. Visualize the Geospatial Map
-So far we have already created a dataset with our original data and ESPG codes. Next, we need to visualize the variables on the worldmap. By doing this, you can choose either "Geospatial View" node or "Geospatial View With Static" node.
+So far we have already created a dataset with our original data and ESPG codes. Next, we need to visualize the variables on the worldmap. By doing this, you can choose either "Geospatial View" node or "Geospatial View with Static" node.
+![geospatial_view](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/geospatial_view.jpg)
+* Geospatial View: This node creates an interactive map view based on the selected geometric elements of the input table. It provides various dialog options to modify the appearance of the view e.g. the base map, shape color and size. The geometric elements are drawn in the order they appear in the input table. 
+* Geospatial View with Static: This node will visualize the given geometric elements using the matplotlib . It can be used to create Choropleth Maps by assigning a marker color column. The node further supports various settings to adapt the legend to your needs.
+* Geospatial View Settings:
+
+
 
   
