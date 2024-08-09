@@ -64,3 +64,4 @@ To replace our place boundaries with ESPG codes, which can be universally used f
 ![projection_config](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/projection_config.jpg)
 We choose "Replace" to replace our boundaries information with ESPG codes. If you don't want to replace and only want an extra line of ESPG codes, we can choose "Append" in the setting.
 
+### Step 3.4 Combine Our ESPG Codes With Our Original Dataset
