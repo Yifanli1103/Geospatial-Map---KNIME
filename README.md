@@ -88,3 +88,6 @@ So far we have already created a dataset with our original data and ESPG codes. 
 ![static_config2](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/static_config2.jpg)
 * Geospatial View with Static Map:
 ![static_map](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/static_map.jpg)
+
+# KNIME Community Hub
+You can directly download my complete workflow through my Community Hub, click [HERE](https://hub.knime.com/-/spaces/-/~IhGFsKkfL8H5jkZE/current-state/). 
