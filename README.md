@@ -40,11 +40,20 @@ Click the website link above and sign up for the KNIME community Hub. Then, go b
 ![workflow](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/workflow.jpg)
 
 ### Step 3.1 Insert the Dataset
+![country_example](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/country_example.jpg)
 1.Change the name of your country variable (the column of country) into "Region" in your CSV file.
 ![csv_reader](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/csv_reader.jpg)
-
 2.Use the node repository on the left-hand side to search the node, typing "CSV reader". Then, drag the node to the platform.
 ![csv_config](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/csv_config.jpg)
 3.Right click the node and select the configure to set up the node. Then, click browse and find your corresponding dataset that you want to analyze (settings are shown in the graph). After this, click apply and your dataset will be stored at the CSV reader node.
 
 ### Step 3.2 Extract the Spatial Information (Coordinate Reference System)
+![extraction_spatial](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/extraction_spatial.jpg)
+In this step, we use a loop to iterate our extraction process of obtaining the geospatial information (Polygons) of each country. The node introduction and settings are shown as followed:
+* Table Row to Variable Loop Start: This node uses each row of a data table to define new variable values for each loop iteration. The names of the variables are defined by the column names.
+* 
+* OSM Boundary Map: This node gets place boundary from OpenStreetMap by the geocoding place name. The resulting GeoDataFrame’s geometry column contains place boundaries if they exist in OpenStreetMap.
+* 
+* Loop End: Node at the end of a loop. It is used to mark the end of a workflow loop and collects the intermediate results by row-wise concatenation of the incoming tables.
+
+
