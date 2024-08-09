@@ -78,7 +78,7 @@ So far we have already created a dataset with our original data and ESPG codes. 
 ![geospatial_view](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/geospatial_view.jpg)
 * Geospatial View: This node creates an interactive map view based on the selected geometric elements of the input table. It provides various dialog options to modify the appearance of the view e.g. the base map, shape color and size. The geometric elements are drawn in the order they appear in the input table. 
 * Geospatial View Settings:
-![geospatial_config1](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/geospatial_config1.jpg)
+![geospatial_config1](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/geospatial_view_config1.jpg)
 ![geospatial_config2](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/geospatial_config2.jpg)
 ![geospatial_config3](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/geospatial_config3.jpg)
 * Geospatial View Map:
