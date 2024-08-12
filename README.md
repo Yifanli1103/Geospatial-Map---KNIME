@@ -20,7 +20,7 @@ Key Functions
 
 KNIME Offical Website : Click [HERE](https://www.knime.com)
 
-# How to create a geospatial map through KNIME
+# How to create a geospatial map through KNIME[3]
 
 ## Overview
 ![workflow_overview](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Graphs/workflow_overview.png)
@@ -95,6 +95,6 @@ So far we have already created a dataset with our original data and ESPG codes. 
 You can directly download my complete workflow through my Community Hub, click [HERE](https://hub.knime.com/-/spaces/-/~IhGFsKkfL8H5jkZE/current-state/). 
 
 # Reference
-[1] Janssen, V. (2009). Understanding coordinate reference systems, datums and transformations. <br>
-[2] International Association of Oil & Gas Producers. (2019). EPSG Geodetic Parameter Dataset. Retrieved from https://www.epsg.org. <br>
-[3] KNIME. (2023, July 4). Tutorial: Geospatial analytics no code. KNIME. https://www.knime.com/blog/tutorial-geospatial-analytics-no-code. <br>
+[1]:Janssen, V. (2009). Understanding coordinate reference systems, datums and transformations. <br>
+[2]:International Association of Oil & Gas Producers. (2019). EPSG Geodetic Parameter Dataset. Retrieved from https://www.epsg.org. <br>
+[3]:KNIME. (2023, July 4). Tutorial: Geospatial analytics no code. KNIME. https://www.knime.com/blog/tutorial-geospatial-analytics-no-code. <br>
