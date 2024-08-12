@@ -46,17 +46,19 @@ Click the website link above and sign up for the KNIME community Hub. Then, go b
 ![csv_config](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/csv_config.jpg)
 3.Right click the node and select the configure to set up the node. Then, click browse and find your corresponding dataset that you want to analyze (settings are shown in the graph). After this, click apply and your dataset will be stored at the CSV reader node.
 
-### Step 3.2 Extract the Spatial Information (Coordinate Reference System)
+### Step 3.2 Extract the Spatial Information (Coordinate Reference System[^1])
 ![extraction_spatial](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/extraction_spatial.jpg)
-In this step, we use a loop to iterate our extraction process of obtaining the geospatial information (Polygons) of each country. The node introduction and settings are shown as followed:
+In this step, we use a loop to iterate our extraction process of obtaining the geospatial information (Polygons) of each country. The polygon information will be stored in Geometry type column that its coordinates are expressed in degrees. The node introduction and settings are shown as followed:
 * Table Row to Variable Loop Start: This node uses each row of a data table to define new variable values for each loop iteration. The names of the variables are defined by the column names.
+[^1]: A coordinate reference system is a methodology to define the location of a feature in space[1].
 ![start_loop](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/start_loop.jpg)
 * OSM Boundary Map: This node gets place boundary from OpenStreetMap by the geocoding place name. The resulting GeoDataFrame’s geometry column contains place boundaries if they exist in OpenStreetMap (no need to configure).
 * Loop End: Node at the end of a loop. It is used to mark the end of a workflow loop and collects the intermediate results by row-wise concatenation of the incoming tables.
 ![end_loop](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/end_loop.jpg)
 
-### Step 3.3 Change the Geometry Column Contains Place Boundaries Into ESPG Codes
-To replace our place boundaries with ESPG codes, which can be universally used for mapping coordinates everywhere in the world, we need the assistance of "Projection" node.
+### Step 3.3 Change the CRS to ESPG Codes[^2]
+For easy calculation and interpretation, we change the units of measurement related to the coordinates, and move from the degree system to the metric system with ESPG:3857, which can be universally used for mapping coordinates everywhere in the world, we need the assistance of "Projection" node.
+[^2]: EPSG codes are numerical identifiers assigned to coordinate reference systems and geodetic parameters to ensure consistent and accurate geospatial data management[2].
 ![projection](https://github.com/Yifanli1103/Geospatial-Map---KNIME/blob/main/Figures/projection.jpg)
 * Projection: This node transforms the Coordinate reference system (CRS) of the selected geometry column to the entered new coordinate reference system. The node will transform the points in all objects individually. It is based on the Geopandas project.
 * Settings:
@@ -91,3 +93,8 @@ So far we have already created a dataset with our original data and ESPG codes. 
 
 # KNIME Community Hub
 You can directly download my complete workflow through my Community Hub, click [HERE](https://hub.knime.com/-/spaces/-/~IhGFsKkfL8H5jkZE/current-state/). 
+
+# Reference
+[1] Janssen, V. (2009). Understanding coordinate reference systems, datums and transformations.
+[2] International Association of Oil & Gas Producers. (2019). EPSG Geodetic Parameter Dataset. Retrieved from https://www.epsg.org
+[3] KNIME. (2023, July 4). Tutorial: Geospatial analytics no code. KNIME. https://www.knime.com/blog/tutorial-geospatial-analytics-no-code
