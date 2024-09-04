@@ -1,8 +1,7 @@
 
 # Geospatial Map of Blockchain Social Media Sentiments- KNIME
 
-[![arXiv](https://img.shields.io/badge/arXiv-2409.00843-B31B1B.svg)](https://arxiv.org/abs/2409.00843)  
-[![Source Code](https://img.shields.io/badge/Source%20Code-GitHub-blue)](https://github.com/yukiyuqichen/GeoBlockchain)
+[![arXiv](https://img.shields.io/badge/arXiv-2409.00843-B31B1B.svg)](https://arxiv.org/abs/2409.00843)  [![Source Code](https://img.shields.io/badge/Source%20Code-GitHub-blue)](https://github.com/yukiyuqichen/GeoBlockchain)
 
 This repository provides a **non-code-based data science workflow tutorial** using **KNIME** for replicating the geospatial maps and analyses presented in the research paper **["Global Public Sentiment on Decentralized Finance: A Spatiotemporal Analysis of Geo-tagged Tweets from 150 Countries"](https://arxiv.org/abs/2409.00843)**.
 
